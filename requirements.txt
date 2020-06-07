@@ -1,0 +1,4 @@
+opencv-python
+qrcode
+pyzbar
+pyfirmata
