@@ -48,9 +48,9 @@ elif argv[1] == 'v':
     from os import name
     
     if name == 'nt': # check if windows OS ... device driver structure for usb is different in linux
-      board = Arduino('/dev/ttyACM0')
+      board = Arduino('COM3')
     else: # in linux name is 'posix' .. works for Raspberry Pi
-      board = Arduino('COM3') # goto arduino ide -> examples -> Firmata -> StandardFirmata and burn it into board before
+      board = Arduino('/dev/ttyACM0') # goto arduino ide -> examples -> Firmata -> StandardFirmata and burn it into board before
       
     board.digital[12].write(0)
     board.digital[13].write(0)
