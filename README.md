@@ -25,7 +25,7 @@ This application was tested on Kali Linux 2019.3
 
 1) opencv-python (for camera interface)
 2) pyzbar (for decoding QR codes from video)
-3) qrcode (for creating GR code into image)
+3) qrcode (for creating QR code into image)
 4) if arduino support, pyfirmata library and arduino board with atleast 2 LEDs
 
 Remember that pyzbar needs zbar package on your system (libzbar)
